@@ -1,167 +1,64 @@
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Student Performance Analyser</title>
+# 📊 Student Performance Analyser
 
-<style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial, Helvetica, sans-serif;
-}
+A full-stack Student Performance Analyser developed using **Python**, featuring a **Streamlit** frontend and a Python backend for data processing and analysis. The application helps evaluate student academic performance by calculating grades, percentages, and performance metrics while presenting insights through an interactive web interface and visualizations.
 
-body{
-    background:#f4f7fc;
-    color:#333;
-    padding:40px;
-}
+## 🚀 Features
 
-.container{
-    max-width:900px;
-    margin:auto;
-    background:#fff;
-    padding:35px;
-    border-radius:12px;
-    box-shadow:0 5px 15px rgba(0,0,0,.15);
-}
+* 📋 Add and manage student records
+* 📊 Calculate total marks, percentage, grades, and overall performance
+* 📈 Generate performance insights and statistics
+* 📉 Visualize student performance using charts and graphs
+* 🌐 Interactive and responsive web interface built with Streamlit
+* ⚙️ Modular backend for efficient data processing
 
-h1{
-    color:#2E8B57;
-    text-align:center;
-    margin-bottom:20px;
-}
+## 🛠️ Tech Stack
 
-h2{
-    color:#1565C0;
-    margin-top:30px;
-    margin-bottom:10px;
-}
+* **Python**
+* **Streamlit** (Frontend)
+* **Python Backend**
+* **NumPy** (Numerical computations)
+* **Matplotlib** (Data visualization)
+* **Pandas** (Data manipulation, if used)
 
-p{
-    line-height:1.7;
-}
+## 📂 Project Structure
 
-ul,ol{
-    margin-left:25px;
-    line-height:1.8;
-}
+* **Frontend:** Streamlit-based interactive user interface
+* **Backend:** Python modules handling business logic and data processing
+* **Visualization:** Matplotlib for generating performance graphs
+* **Data Processing:** NumPy for efficient calculations
 
-code{
-    background:#eee;
-    padding:2px 6px;
-    border-radius:5px;
-}
+## ▶️ Installation & Usage
 
-pre{
-    background:#1e1e1e;
-    color:white;
-    padding:15px;
-    border-radius:8px;
-    overflow:auto;
-}
+1. Clone the repository:
 
-.footer{
-    text-align:center;
-    margin-top:40px;
-    font-weight:bold;
-    color:#555;
-}
-</style>
+   ```bash
+   git clone https://github.com/your-username/student-performance-analyser.git
+   ```
 
-</head>
-<body>
+2. Install the required dependencies:
 
-<div class="container">
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-<h1>📊 Student Performance Analyser</h1>
+3. Run the application:
 
-<p>
-A full-stack Student Performance Analyser developed using
-<strong>Python</strong>, featuring a <strong>Streamlit</strong> frontend
-and a Python backend for data processing and analysis.
-The application evaluates student academic performance by calculating
-grades, percentages, and performance metrics while presenting insights
-through interactive visualizations.
-</p>
+   ```bash
+   streamlit run app.py
+   ```
 
-<h2>🚀 Features</h2>
+## 🎯 Project Objective
 
-<ul>
-<li>📋 Add and manage student records</li>
-<li>📊 Calculate total marks, percentage, grades, and overall performance</li>
-<li>📈 Generate performance insights and statistics</li>
-<li>📉 Visualize student performance using charts and graphs</li>
-<li>🌐 Interactive Streamlit web interface</li>
-<li>⚙️ Modular backend for efficient data processing</li>
-</ul>
+This project was built to demonstrate practical Python development by combining backend programming, data analysis, visualization, and web application development. It showcases the integration of Streamlit, NumPy, and Matplotlib to create an interactive tool for analyzing student performance.
 
-<h2>🛠️ Tech Stack</h2>
+## 🔮 Future Enhancements
 
-<ul>
-<li>Python</li>
-<li>Streamlit</li>
-<li>NumPy</li>
-<li>Matplotlib</li>
-<li>Pandas</li>
-</ul>
+* Database integration (SQLite/MySQL)
+* User authentication and role-based access
+* PDF and Excel report generation
+* Interactive dashboards with advanced analytics
+* Machine learning-based performance prediction
 
-<h2>📂 Project Structure</h2>
+## 👨‍💻 Author
 
-<ul>
-<li><strong>Frontend:</strong> Streamlit</li>
-<li><strong>Backend:</strong> Python</li>
-<li><strong>Visualization:</strong> Matplotlib</li>
-<li><strong>Data Processing:</strong> NumPy</li>
-</ul>
-
-<h2>▶️ Installation</h2>
-
-<ol>
-<li>Clone the repository</li>
-</ol>
-
-<pre><code>git clone https://github.com/your-username/student-performance-analyser.git</code></pre>
-
-<ol start="2">
-<li>Install dependencies</li>
-</ol>
-
-<pre><code>pip install -r requirements.txt</code></pre>
-
-<ol start="3">
-<li>Run the application</li>
-</ol>
-
-<pre><code>streamlit run app.py</code></pre>
-
-<h2>🎯 Project Objective</h2>
-
-<p>
-This project demonstrates full-stack Python development by integrating
-backend programming, data analysis, visualization, and a Streamlit-based
-web interface to analyze student performance efficiently.
-</p>
-
-<h2>🔮 Future Enhancements</h2>
-
-<ul>
-<li>Database Integration</li>
-<li>User Authentication</li>
-<li>Export Reports to PDF/Excel</li>
-<li>Interactive Dashboard</li>
-<li>Machine Learning Predictions</li>
-</ul>
-
-<div class="footer">
-👨‍💻 Developed by <strong>Pranil Mahale</strong>
-</div>
-
-</div>
-
-</body>
-</html>
-```
+**Pranil Mahale**
