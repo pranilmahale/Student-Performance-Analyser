@@ -1,6 +1,6 @@
 # 📊 Student Performance Analyser
 
-A full-stack Student Performance Analyser developed using **Python**, featuring a **Streamlit** frontend and a Python backend for data processing and analysis. The application helps evaluate student academic performance by calculating grades, percentages, and performance metrics while presenting insights through an interactive web interface and visualizations.
+A full-stack Student Performance Analyser developed using **Python**, featuring a **Streamlit** frontend and a Python backend for data processing and analysis. The application helps evaluate student academic performance by calculating grades, percentages, and performance metrics while presenting insights through an interactive web interface and visualizations.IT
 
 ## 🚀 Features
 
@@ -61,4 +61,5 @@ This project was built to demonstrate practical Python development by combining 
 
 ## 👨‍💻 Author
 
-**Pranil Mahale**
+**Pranil Mahale** 
+
